@@ -1,0 +1,13 @@
+.articleAccordion:hover{
+  border: 3px solid red;
+}
+
+.articleAccordion{
+  transition: 300ms;
+}
+
+.articleContent::first-letter{
+  color: red;
+  font-size: 30px;
+  padding-right: 2px;
+}
