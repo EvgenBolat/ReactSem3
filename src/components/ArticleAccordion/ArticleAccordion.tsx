@@ -1,6 +1,6 @@
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material'
 import { FC } from 'react'
-import { Article } from '../../typification/Article.type'
+import { Article } from '../../Typification/Article.type'
 import './ArticleAccordion.scss'
 interface ArticleAccordionInterface {
 	article: Article
@@ -17,10 +17,12 @@ const ArticleAccordion: FC<ArticleAccordionInterface> = ({
 				theme => ({
 					backgroundColor: !isOdd ? 'lightblue' : 'black',
 					color: !isOdd ? 'black' : 'white',
-					...theme.applyStyles("dark", {
+					...theme.applyStyles('dark', {
 						backgroundColor: !isOdd ? 'lightblue' : 'white',
 						color: !isOdd ? 'black' : 'black',
 					}),
+					border: '0px',
+					transition: '300ms',
 				}),
 			]}
 		>

@@ -5,8 +5,8 @@ import {
 	useColorScheme,
 } from '@mui/material'
 import './App.scss'
-import Header from './containers/Header/Header'
-import MainContent from './containers/MainContent/MainContent'
+import Header from './Containers/Header/Header'
+import MainContent from './Containers/MainContent/MainContent'
 
 function MyApp() {
 	const { mode, setMode } = useColorScheme()

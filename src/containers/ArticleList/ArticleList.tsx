@@ -1,8 +1,7 @@
 import { Stack } from '@mui/material'
-import { FC } from 'react'
-import { Article } from '../../typification/Article.type'
+import React, { FC } from 'react'
+import { Article } from '../../Typification/Article.type'
 import ArticleAccordion from '../../components/ArticleAccordion/ArticleAccordion'
-import React from 'react'
 interface ArticleListInterface {
 	articles: Article[]
 	gap: number

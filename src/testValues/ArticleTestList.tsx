@@ -1,4 +1,4 @@
-import { Article } from '../typification/Article.type'
+import { Article } from '../Typification/Article.type'
 
 export const ARTICLE_TEST_LIST: Article[] = [
 	{
